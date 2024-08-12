@@ -10,7 +10,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(247, 24, 24);
 }
 
 .container {
@@ -27,6 +26,10 @@ h1 {
     font-size: 2em;
 }
 
+h3 {
+    margin-bottom: 20px;
+}
+
 .conteudo {
     margin: 70px 0px;
 }
@@ -39,8 +42,26 @@ footer {
     font-style: italic;
 }
 
-@media (max-width: 390px) {
+@media (min-width: 390px) {
     .container {
         width: 90vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 50vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 50vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 60vw;
     }
 }
