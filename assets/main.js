@@ -29,8 +29,8 @@ function carregar() {
         footer.style.color = '#515154'
         
         if (hora_atual == 1 || hora_atual >= 0 && hora_atual <= 9) {
-            mensagem.innerHTML = `Agora são ${hora_atual}:00 hora`
-            mensagem.innerHTML = `Agora são 0${hora_atual}:00 hora`
+            msg.innerHTML = `Agora são ${hora_atual}:00 hora`
+            msg.innerHTML = `Agora são 0${hora_atual}:00 hora`
         }
 
     } else if (hora >= 12 && hora < 18) {
